@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*height: 100vh;*/
+    /*color: #333;*/
+}
+
+.header {
+    
+    background-color: #333; /* Dark background color for the header */
+    color: white; /* White text color for better contrast */
+    padding: .001em 0;
+    text-align: center;
+    position: relative;
+    /*margin-bottom: 30px;*/
+    /*text-align: left;*/
+    /*margin-bottom: 30px;*/
+    
+}
+
+.header h1 {
+    background-color: #333; /* Dark background color for the header */
+    color: white; /* White text color for better contrast */
+    padding: .001em 0;
+    text-align: center;
+    position: relative;
+    /*font-size: 3em;*/
+    /*margin: -100px 0 0 0;*/
+    /*color: #E2001A;*/
+    /*text-transform: uppercase;*/
+}
+
+.header h2 {
+    padding: .001 em 0;
+    font-size: 2em;
+    margin: 10px 20px;
+    color: white;
+    position: relative;
+    text-align: left;
+}
+
+.header img {
+            position: absolute;
+            top: 20px;
+            right: 10px;
+            width: 400px; /* Adjust the width as needed */
+            height: auto;
+}
+
+
+
+footer {
+    background-color: #333; /* Dark background color for the footer */
+    color: white; /* White text color for better contrast */
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+
+footer p {
+    margin: 0;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.image-container img {
+    max-width: 100%;
+    max-height: 800px; /* Adjust the max height as needed */
+    height: auto;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.links a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #E2001A;
+    padding: 30px 30px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background 0.3s;
+    font-size: 1.2em;
+    width: 350px;
+    text-align: left;
+   
+}
+
+
+.links a:hover {
+    background: #ffffff;
+    color: #E2001A;
+}
+
+
